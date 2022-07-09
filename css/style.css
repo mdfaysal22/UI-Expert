@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Poppins&family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+* a {
+  text-decoration: none;
+}
+* ul {
+  list-style: none;
+}
+
+.btn {
+  padding: 10px 25px;
+  background-color: #3D37F1;
+  border-radius: 40px;
+  border: none;
+  box-shadow: 0px 5px 20px -1px rgba(61, 55, 241, 0.5215686275);
+}
+.btn a {
+  color: #FFFFFF;
+}
+
+.btn-yellow {
+  padding: 10px 30px;
+  background-color: #FF8923;
+  border-radius: 40px;
+  border: none;
+  box-shadow: 0px 5px 20px -1px rgba(255, 138, 35, 0.5764705882);
+}
+.btn-yellow a {
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+#main-header {
+  background-image: url(../img/bg.png);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+#main-header .container nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#main-header .container nav .logo h1 {
+  font-size: 2rem;
+  font-family: "Lato", sans-serif;
+  color: #3D37F1;
+}
+#main-header .container nav .logo h1 span {
+  color: #534D4D;
+  font-weight: 100;
+}
+#main-header .container nav .manu-bar ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#main-header .container nav .manu-bar ul li a {
+  color: #FFFFFF;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  padding: 20px 10px;
+  display: inline-block;
+  font-family: "lato", sans-serif;
+}
+#main-header .container .bannar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 6rem;
+}
+#main-header .container .bannar .left-content h1 {
+  color: #534D4D;
+  font-size: 4rem;
+  line-height: 1.5;
+  font-family: "lato", sans-serif;
+}
+#main-header .container .bannar .left-content p {
+  font-family: "Roboto", sans-serif;
+  color: #534D4D;
+  font-size: 1.2rem;
+}
+#main-header .container .bannar .left-content .btn {
+  margin-top: 2rem;
+  padding: 10px 45px !important;
+}
+#main-header .container .bannar .bannar-image img {
+  width: 35vw;
+}/*# sourceMappingURL=style.css.map */

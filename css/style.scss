@@ -1,0 +1,101 @@
+@import '_reset.scss';
+@import '_components.scss';
+
+// font-family: 'Lato', sans-serif;
+// font-family: 'Poppins', sans-serif;
+// font-family: 'Roboto', sans-serif;
+// // Variables Here....
+
+$yellow-bg-btn: #FF8923;
+$yellow-bg-btn-opacity: #ff8a2393;
+$bule-bg-btn: #3D37F1;
+$bule-bg-btn-opacity: #3d37f185;
+$text-blue: #3D37F1;
+$white-text: #FFFFFF;
+$dark-text-h1:#534D4D;
+$bg-light-50:#FBFCFD;
+
+// Container...
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
+
+// Local CSS Here......
+
+#main-header{
+    background-image: url(../img/bg.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+
+    .container{
+        nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .logo{
+                h1{
+                    font-size: 2rem;
+                    font-family: 'Lato', sans-serif;
+                    color: $text-blue;
+                    span{
+                        color: $dark-text-h1;
+                        font-weight: 100;
+                    }
+                }
+            }
+            .manu-bar{
+                ul{
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+
+                    li{
+                        a{
+                            color: $white-text;
+                            font-weight: 500;
+                            text-transform: uppercase;
+                            font-size: 1.1rem;
+                            padding: 20px 10px;
+                            display: inline-block;
+                            font-family: 'lato', sans-serif;
+                        }
+                    }
+
+                }
+            }
+
+        }
+        .bannar{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 6rem;
+            .left-content{
+                h1{
+                    color: $dark-text-h1;
+                    font-size: 4rem;
+                    line-height: 1.5;
+                    font-family: 'lato', sans-serif;
+                }
+                p{
+                    font-family:'Roboto', sans-serif;
+                    color: $dark-text-h1;
+                    font-size: 1.2rem;
+                }
+                .btn{
+                    margin-top: 2rem;
+                    padding: 10px 45px !important;
+                }
+            }
+            .bannar-image{
+                img{
+                    width: 35vw;
+                }
+            }
+        }
+    }
+}
+

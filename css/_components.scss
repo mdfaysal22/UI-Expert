@@ -1,0 +1,32 @@
+$yellow-bg-btn: #FF8923;
+$yellow-bg-btn-opacity: #ff8a2393;
+$bule-bg-btn: #3D37F1;
+$bule-bg-btn-opacity: #3d37f185;
+$text-blue: #3D37F1;
+$white-text: #FFFFFF;
+// Global CSS Here.....
+.btn{
+    padding: 10px 25px;
+    background-color: $bule-bg-btn;
+    border-radius: 40px;
+    border: none;
+    box-shadow: 0px 5px 20px -1px $bule-bg-btn-opacity;
+
+    a{
+        color: $white-text;
+    }
+}
+
+// Yellow Button Style Here....
+.btn-yellow{
+    padding: 10px 30px;
+    background-color: $yellow-bg-btn;
+    border-radius: 40px;
+    border: none;
+    box-shadow: 0px 5px 20px -1px $yellow-bg-btn-opacity;
+
+    a{
+        color: $white-text;
+        text-transform: uppercase;
+    }
+}
