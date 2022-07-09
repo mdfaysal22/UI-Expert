@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  transition: all 0.4s;
 }
 * a {
   text-decoration: none;
@@ -32,6 +33,24 @@
 .btn-yellow a {
   color: #FFFFFF;
   text-transform: uppercase;
+}
+
+.btn-white {
+  padding: 10px 25px;
+  background-color: transparent;
+  border-radius: 40px;
+  border: 2px solid #FFFFFF;
+}
+.btn-white a {
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.btn-white:hover {
+  background-color: #FFFFFF;
+}
+.btn-white:hover a {
+  color: #534D4D;
 }
 
 .container {
@@ -97,4 +116,75 @@
 }
 #main-header .container .bannar .bannar-image img {
   width: 35vw;
+}
+
+#services {
+  background-color: #FBFCFD;
+}
+#services .container .header-element {
+  text-align: center;
+  line-height: 1.5;
+  padding: 1rem 10rem;
+}
+#services .container .header-element h3 {
+  color: #3D37F1;
+  font-size: 1rem;
+  font-family: "Lato", sans-serif;
+  letter-spacing: 1.5px;
+}
+#services .container .header-element h1 {
+  font-family: "Lato", sans-serif;
+  font-size: 2rem;
+  color: #534D4D;
+}
+#services .container .header-element p {
+  font-size: 1.1rem;
+  color: #534D4D;
+  font-family: "Roboto", sans-serif;
+}
+#services .container .grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 2rem;
+  margin: 2rem 0;
+  justify-content: space-between;
+}
+#services .container .grid-container .card {
+  text-align: center;
+  color: #FFFFFF;
+  font-family: "lato", sans-serif;
+}
+#services .container .grid-container .card .card-content {
+  padding: 2rem;
+}
+#services .container .grid-container .card .card-content img {
+  width: 100px;
+  height: 100px;
+}
+#services .container .grid-container .card .card-content h3 {
+  margin: 3rem 0 1rem 0;
+}
+#services .container .grid-container .card .card-content p {
+  padding: 1rem 2rem;
+}
+#services .container .grid-container .card .card-content .btn-white {
+  margin: 1rem 0;
+}
+#services .container .grid-container .card-1 {
+  background-image: linear-gradient(to top, #f59738, #DFA871);
+}
+#services .container .grid-container .card-2 {
+  background-image: linear-gradient(to top, #00c1bb, #41EAE3);
+}
+#services .container .grid-container .card-3 {
+  background-image: linear-gradient(to top, #5c3ea1, #69529F);
+}
+#services .container .grid-container .card-4 {
+  background-image: linear-gradient(to top, #146dd2, #4386d2);
+}
+#services .container .grid-container .card-5 {
+  background-image: linear-gradient(to top, #9592fd, #a5a2f6);
+}
+#services .container .grid-container .card-6 {
+  background-image: linear-gradient(to top, #ff6b75, #ff8088);
 }/*# sourceMappingURL=style.css.map */
