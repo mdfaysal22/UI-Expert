@@ -58,6 +58,18 @@
   margin: 0 auto;
 }
 
+.flex-container {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  font-family: "Lato", sans-serif;
+}
+
 #main-header {
   background-image: url(../img/bg.png);
   background-position: center;
@@ -187,4 +199,36 @@
 }
 #services .container .grid-container .card-6 {
   background-image: linear-gradient(to top, #ff6b75, #ff8088);
+}
+
+#about-ui .flex-container {
+  margin-top: 5rem;
+}
+#about-ui .flex-container .left-image img {
+  width: 30rem;
+}
+#about-ui .flex-container .right-content h1 {
+  color: #534D4D;
+  font-size: 2rem;
+  line-height: 2;
+}
+#about-ui .flex-container .right-content p {
+  color: #534D4D;
+  font-size: 1.3rem;
+  font-family: "roboto", sans-serif;
+}
+#about-ui .flex-container .right-content .icons {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 3rem 0 0 0;
+}
+#about-ui .flex-container .right-content .icons img {
+  width: 50px;
+}
+#about-ui .flex-container .right-content .icons hr {
+  width: 50px;
+  height: 5px;
+  background-color: #534D4D;
+  margin: 0 50px;
 }/*# sourceMappingURL=style.css.map */

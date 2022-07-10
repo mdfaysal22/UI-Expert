@@ -32,6 +32,16 @@ $bg-card-opacity-6:  #ff8088;
     width: 85%;
     margin: 0 auto;
 }
+.flex-container{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h1{
+    font-family: 'Lato', sans-serif;
+}
 
 // Local CSS Here......
 
@@ -179,6 +189,46 @@ $bg-card-opacity-6:  #ff8088;
             }
             .card-6{
                 background-image: linear-gradient(to top, $bg-card-6, $bg-card-opacity-6);
+            }
+        }
+    }
+}
+#about-ui{
+    .flex-container{
+        margin-top: 5rem;
+        .left-image{
+            img{
+                width: 30rem;
+            }
+        }
+        .right-content{
+            h1{
+                color: $dark-text-h1;
+                font-size: 2rem;
+                line-height: 2;
+            }
+            p{
+                color: $dark-text-h1;
+                font-size: 1.3rem;
+                font-family: 'roboto', sans-serif;
+            }
+
+            .icons{
+                display: flex;
+                justify-content: left;
+                align-items: center;
+                padding: 3rem 0 0 0;
+
+                img{
+                    width: 50px;
+                }
+                hr{
+                    width: 50px;
+                    height: 5px;
+                    background-color: $dark-text-h1;
+                    margin: 0 50px;
+                    
+                }
             }
         }
     }
