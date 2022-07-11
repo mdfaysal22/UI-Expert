@@ -202,7 +202,7 @@ h1 {
 }
 
 #about-ui .flex-container {
-  margin-top: 5rem;
+  margin: 5rem;
 }
 #about-ui .flex-container .left-image img {
   width: 30rem;
@@ -231,4 +231,46 @@ h1 {
   height: 5px;
   background-color: #534D4D;
   margin: 0 50px;
+}
+
+#portfolio .flex-container {
+  align-items: flex-start;
+}
+#portfolio .flex-container .list {
+  width: 20%;
+  font-family: "Roboto", sans-serif;
+}
+#portfolio .flex-container .list h1 {
+  color: #534D4D;
+}
+#portfolio .flex-container .list p {
+  color: #534D4D;
+}
+#portfolio .flex-container .list ul li {
+  line-height: 2;
+  color: #534D4D;
+  margin: 1.5rem 0;
+}
+#portfolio .flex-container .list ul li hr {
+  color: #534D4D;
+}
+#portfolio .flex-container .list ul li:hover {
+  color: #146dd2;
+  cursor: pointer;
+}
+#portfolio .flex-container .list ul li:hover hr {
+  background-color: #146dd2;
+}
+#portfolio .flex-container .port-image {
+  width: 75%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+#portfolio .flex-container .port-image .image-container {
+  padding: 1rem;
+}
+#portfolio .flex-container .port-image .image-container img {
+  width: 200px;
+  padding: 0;
+  border: 2px solid #146dd2;
 }/*# sourceMappingURL=style.css.map */
