@@ -280,3 +280,65 @@ h1{
         }
     }
 }
+
+#seccess{
+    margin: 3rem 0;
+    .container{
+        text-align: center;
+        padding: 1rem 0;
+        h1{
+            font-family: 'lato',sans-serif;
+            font-size: 2rem;
+            color: $dark-text-h1;
+        }
+        p{
+            color: $dark-text-h1;
+            font-family: 'Roboto', sans-serif;
+            font-size: 1rem;
+        }
+    }
+    .flex-container{
+        justify-content: space-evenly;
+
+        .card{
+            box-shadow: 0px 0px 25px -20px rgba(112,112,112,0.75);
+            width: 150px;
+            height: 150px;
+            border-radius: 5px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            font-family: 'lato',sans-serif;
+            small{
+                text-align: center;
+                padding: 5px;
+                font-size: 0.6rem;
+            }
+            .card-inner{
+                width: 100px;
+                height: 100px;
+                margin: 0 auto;
+                border-radius: 25px;
+                box-shadow: 0px 0px 25px -15px $dark-text-h1;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                h1{
+                    font-size: 2rem;
+                    color: $white-text;
+                }
+            }
+            .card-inner-0{
+                background: linear-gradient(0deg, #9775ff 22%, #825feb 73%);
+            }
+            .card-inner-1{
+                background: linear-gradient(0deg, #ff7c90 22%, #ff5d76 73%);
+            }
+            .card-inner-2{
+                background: linear-gradient(0deg, #fab57f 22%, #ffa560 73%);
+            }
+        }
+    }
+}
